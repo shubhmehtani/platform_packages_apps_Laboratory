@@ -27,4 +27,10 @@
         android:title="@string/app_ops_category"
         android:icon="@drawable/ic_appops" />
 
+    <com.aos.laboratory.preferences.SystemSettingSwitchPreference
+        android:key="headset_connect_player"
+        android:title="@string/headset_connect_player_title"
+        android:summary="@string/headset_connect_player_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
