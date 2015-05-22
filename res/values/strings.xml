@@ -524,5 +524,7 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="status_bar_clock_seconds_title">Show seconds</string>
 
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
 </resources>
 
