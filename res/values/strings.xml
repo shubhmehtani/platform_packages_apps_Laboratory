@@ -24,6 +24,7 @@
     <string name="statusbar_category">Status Bar</string>
     <string name="navigation_category">Navigation</string>
     <string name="statusbar_items_category">Statusbar items</string>
+    <string name="button_settings">Button settings</string>
   
     <!-- Battery settings -->
     <string name="status_bar_battery_style_category">Battery</string>
@@ -245,4 +246,9 @@
     <string name="smartbar_config_backup_error_toast">Error saving Smartbar profile</string>
     <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
     <string name="navbar_buttons_alpha_title">Button transparency</string>
+
+    <!-- Volume Key Rotation -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+
 </resources>

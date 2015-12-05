@@ -28,4 +28,10 @@
         android:layout="@layout/preference_navigation"
         android:title="@string/navigationbar_settings_title" />
 
+    <PreferenceScreen
+        android:key="button_settings"
+        android:title="@string/button_settings"
+        android:layout="@layout/preference_buttons"
+        android:fragment="com.atomicos.laboratory.fragments.ButtonSettings" />
+
 </PreferenceScreen>
