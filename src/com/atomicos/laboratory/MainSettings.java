@@ -37,6 +37,7 @@ import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.atomicos.laboratory.tabs.StatusBar;
+import com.atomicos.laboratory.tabs.Navigation;
 import com.atomicos.laboratory.PagerSlidingTabStrip;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -97,6 +98,7 @@ public class MainSettings extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new StatusBar();
+            frags[1] = new Navigation();
         }
 
         @Override
@@ -118,7 +120,8 @@ public class MainSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-            getString(R.string.statusbar_category)};
+            getString(R.string.statusbar_category),
+            getString(R.string.navigation_category)};
         return titleString;
     }
 
