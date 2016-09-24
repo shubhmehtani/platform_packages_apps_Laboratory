@@ -25,7 +25,8 @@
     <string name="navigation_category">Navigation</string>
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="button_settings">Button settings</string>
-  
+    <string name="quick_settings_category">Quick Settings</string>
+
     <!-- Battery settings -->
     <string name="status_bar_battery_style_category">Battery</string>
     <string name="status_bar_battery_settings_summary">Change battery icon, percentage</string>
@@ -311,5 +312,14 @@
     <string name="show_carrier_keyguard">Lockscreen only</string>
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+
+    <!-- Quick Pulldown-->
+    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+    <string name="quick_pulldown_always">Always</string>
 
 </resources>
