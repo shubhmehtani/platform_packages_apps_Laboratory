@@ -28,4 +28,11 @@
             android:layout="@layout/preference_battery_style"
             android:fragment="com.atomicos.laboratory.fragments.StatusbarBatteryStyle" />
 
+   <!-- Statusbar Clock and Date -->
+          <PreferenceScreen
+            android:key="statusbarclock"
+            android:fragment="com.atomicos.laboratory.fragments.StatusbarClock"
+            android:layout="@layout/preference_statusbarclock"
+            android:title="@string/status_bar_clock" />
+
 </PreferenceScreen>
