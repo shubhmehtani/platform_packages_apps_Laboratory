@@ -22,7 +22,8 @@
 
     <!-- Tabs -->
     <string name="statusbar_category">Status Bar</string>
-
+    <string name="statusbar_items_category">Statusbar items</string>
+  
     <!-- Battery settings -->
     <string name="status_bar_battery_style_category">Battery</string>
     <string name="status_bar_battery_settings_summary">Change battery icon, percentage</string>
