@@ -28,6 +28,7 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.ListPreference;
+import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
@@ -55,9 +56,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_COLUMNS = "qs_layout_columns";
+    private static final String PREF_LOCK_QS_DISABLED = "lockscreen_qs_disabled";
 
     private ListPreference mQuickPulldown;
     private CustomSeekBarPreference mQsColumns;
+    private SwitchPreference mLockQsDisabled;
+
+    private static final int MY_USER_ID = UserHandle.myUserId();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,6 +72,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+        final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
 
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
@@ -81,6 +87,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mQsColumns.setValue(columnsQs / 1);
         mQsColumns.setOnPreferenceChangeListener(this);
 
+        mLockQsDisabled = (SwitchPreference) findPreference(PREF_LOCK_QS_DISABLED);
+        if (lockPatternUtils.isSecure(MY_USER_ID)) {
+            mLockQsDisabled.setChecked((Settings.Secure.getInt(resolver,
+                Settings.Secure.LOCK_QS_DISABLED, 0) == 1));
+            mLockQsDisabled.setOnPreferenceChangeListener(this);
+        } else {
+            prefSet.removePreference(mLockQsDisabled);
+        }
     }
 
     @Override
@@ -105,6 +119,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         int qsColumns = (Integer) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.QS_LAYOUT_COLUMNS, qsColumns * 1);
+            return true;
+        } else if  (preference == mLockQsDisabled) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.LOCK_QS_DISABLED, checked ? 1:0);
             return true;
         }
         return false;
