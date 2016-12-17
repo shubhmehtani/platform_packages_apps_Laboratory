@@ -303,4 +303,8 @@
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
 
+    <!-- Navbar dynamic color -->
+    <string name="nav_bar_dynamic_title">Dynamic navbar color</string>
+    <string name="nav_bar_dynamic_summary">Enables the navbar to adapt app\'s primary dark color. Restart your desired app to see effect.</string>
+
 </resources>
