@@ -45,4 +45,10 @@
             android:layout="@layout/preference_statusbarclock"
             android:title="@string/status_bar_clock" />
 
+    <PreferenceScreen
+        android:fragment="com.atomicos.laboratory.fragments.CarrierLabel"
+        android:key="carrier_label"
+        android:layout="@layout/preference_carrierlabel"
+        android:title="@string/carrierlabel_title"/>
+
 </PreferenceScreen>
