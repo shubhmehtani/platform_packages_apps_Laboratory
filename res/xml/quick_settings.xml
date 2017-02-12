@@ -99,4 +99,10 @@
 
     </PreferenceCategory>
 
+    <com.atomicos.laboratory.preference.SecureSettingSwitchPreference
+        android:key="qs_easy_toggle"
+        android:title="@string/qs_easy_toggle_title"
+        android:summary="@string/qs_easy_toggle_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

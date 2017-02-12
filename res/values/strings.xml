@@ -84,6 +84,11 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+    <string name="tile_category">Tiles</string>
+
+    <!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
+    <string name="qs_easy_toggle_summary">one tap action to toggle bluetooth, data, or wifi</string>
 
     <!-- Navigation Bar -->
     <string name="navbar_tint_switch">Navigation Button Tint</string>
