@@ -336,8 +336,9 @@
     <string name="qs_tile_title_visibility_title">QS tile titles</string>
     <string name="qs_tile_title_visibility_summary_on">QS tiles titles are now visible</string>
     <string name="qs_tile_title_visibility_summary_off">QS tiles titles are now gone</string>
-    <string name="qs_small_tiles_title">Small QS tiles</string>
-
+    <string name="qqs_scroll_title">Scroll small QS tiles</string>
+    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
+  
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_targets_summary">View or change lock screen shortcuts</string>
     <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
