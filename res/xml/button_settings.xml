@@ -183,4 +183,10 @@
         android:defaultValue="true"
         android:dependency="volume_rocker_wake" />
 
+     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
+        android:key="volume_keys_control_media_stream"
+        android:title="@string/volume_keys_control_media_stream_title"
+        android:summary="@string/volume_keys_control_media_stream_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
