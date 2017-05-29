@@ -164,19 +164,19 @@
 
     </PreferenceCategory>
 
-    <SwitchPreference
+     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary" />
 
-    <SwitchPreference
+     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false"
         android:disableDependentsState="true" />
 
-    <SwitchPreference
+     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_music_controls"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
