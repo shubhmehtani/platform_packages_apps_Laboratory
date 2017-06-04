@@ -23,6 +23,7 @@
     <!-- Tabs -->
     <string name="statusbar_category">Status Bar</string>
     <string name="navigation_category">Navigation</string>
+    <string name="lockscreen_category">Lockscreen</string>
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="button_settings">Button settings</string>
     <string name="quick_settings_category">Quick Settings</string>

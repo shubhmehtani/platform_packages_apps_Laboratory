@@ -38,6 +38,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.atomicos.laboratory.tabs.StatusBar;
 import com.atomicos.laboratory.tabs.Navigation;
+import com.atomicos.laboratory.tabs.Lockscreen;
 import com.atomicos.laboratory.PagerSlidingTabStrip;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -99,6 +100,7 @@ public class MainSettings extends SettingsPreferenceFragment {
             super(fm);
             frags[0] = new StatusBar();
             frags[1] = new Navigation();
+            frags[2] = new Lockscreen();
         }
 
         @Override
@@ -121,7 +123,8 @@ public class MainSettings extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
             getString(R.string.statusbar_category),
-            getString(R.string.navigation_category)};
+            getString(R.string.navigation_category),
+            getString(R.string.lockscreen_category)};
         return titleString;
     }
 
