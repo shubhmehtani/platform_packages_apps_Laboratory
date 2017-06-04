@@ -327,4 +327,8 @@
     <string name="lockscreen_targets_summary">View or change lock screen shortcuts</string>
     <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
 
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+
 </resources>
