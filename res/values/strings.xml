@@ -331,4 +331,8 @@
     <string name="double_tap_sleep_anywhere_title">Double tap to sleep on lockscreen</string>
     <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
+    <!-- Power Menu -->
+    <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
+    <string name="powermenu_lockscreen_summary">Show power menu on the lock screen</string>
+
 </resources>
