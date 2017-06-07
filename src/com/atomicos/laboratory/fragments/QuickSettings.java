@@ -57,9 +57,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_COLUMNS = "qs_layout_columns";
     private static final String PREF_LOCK_QS_DISABLED = "lockscreen_qs_disabled";
+    private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
+    private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
 
     private ListPreference mQuickPulldown;
     private CustomSeekBarPreference mQsColumns;
+    private CustomSeekBarPreference mRowsPortrait;
+    private CustomSeekBarPreference mRowsLandscape;
     private SwitchPreference mLockQsDisabled;
 
     private static final int MY_USER_ID = UserHandle.myUserId();
@@ -74,6 +78,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         final PreferenceScreen prefSet = getPreferenceScreen();
         final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
 
+	int defaultValue;
+
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         int quickPulldownValue = Settings.System.getIntForUser(getContentResolver(),
@@ -86,6 +92,19 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
                 Settings.System.QS_LAYOUT_COLUMNS, 3);
         mQsColumns.setValue(columnsQs / 1);
         mQsColumns.setOnPreferenceChangeListener(this);
+
+        mRowsPortrait = (CustomSeekBarPreference) findPreference(PREF_ROWS_PORTRAIT);
+         int rowsPortrait = Settings.System.getInt(resolver,
+                 Settings.System.QS_ROWS_PORTRAIT, 3);
+         mRowsPortrait.setValue(rowsPortrait / 1);
+         mRowsPortrait.setOnPreferenceChangeListener(this);
+
+         defaultValue = getResources().getInteger(com.android.internal.R.integer.config_qs_num_rows_landscape_default);
+         mRowsLandscape = (CustomSeekBarPreference) findPreference(PREF_ROWS_LANDSCAPE);
+         int rowsLandscape = Settings.System.getInt(resolver,
+                 Settings.System.QS_ROWS_LANDSCAPE, defaultValue);
+         mRowsLandscape.setValue(rowsLandscape / 1);
+         mRowsLandscape.setOnPreferenceChangeListener(this);
 
         mLockQsDisabled = (SwitchPreference) findPreference(PREF_LOCK_QS_DISABLED);
         if (lockPatternUtils.isSecure(MY_USER_ID)) {
@@ -125,6 +144,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.LOCK_QS_DISABLED, checked ? 1:0);
             return true;
+        } else if (preference == mRowsPortrait) {
+             int rowsPortrait = (Integer) objValue;
+             Settings.System.putInt(getActivity().getContentResolver(),
+                     Settings.System.QS_ROWS_PORTRAIT, rowsPortrait * 1);
+             return true;
+         } else if (preference == mRowsLandscape) {
+             int rowsLandscape = (Integer) objValue;
+             Settings.System.putInt(getActivity().getContentResolver(),
+                     Settings.System.QS_ROWS_LANDSCAPE, rowsLandscape * 1);
+             return true;
         }
         return false;
     }

@@ -323,6 +323,8 @@
     <string name="quick_pulldown_right">Right</string>
     <string name="quick_pulldown_always">Always</string>
     <string name="qs_columns_title">Columns</string>
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_targets_summary">View or change lock screen shortcuts</string>
