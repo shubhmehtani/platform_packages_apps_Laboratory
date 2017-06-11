@@ -33,18 +33,21 @@
 
     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
         android:key="double_tap_sleep_anywhere"
+        android:icon="@drawable/double_tap_icon"
         android:title="@string/double_tap_sleep_anywhere_title"
         android:summary="@string/double_tap_sleep_anywhere_summary"
         android:defaultValue="false" />
 
     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
         android:key="power_menu_lockscreen"
+        android:icon="@drawable/power_icon"
         android:title="@string/powermenu_lockscreen_title"
         android:summary="@string/powermenu_lockscreen_summary"
         android:defaultValue="true" />
 
     <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
         android:key="keyguard_toggle_torch"
+        android:icon="@drawable/flashlight_icon"
         android:title="@string/keyguard_torch_title"
         android:summary="@string/keyguard_torch_summary"
         android:defaultValue="false" />
