@@ -28,6 +28,7 @@
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="button_settings">Button settings</string>
     <string name="quick_settings_category">Quick Settings</string>
+    <string name="recents_category">Recent Panel</string>
 
     <!-- Battery settings -->
     <string name="status_bar_battery_style_category">Battery</string>

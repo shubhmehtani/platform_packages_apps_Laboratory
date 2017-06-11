@@ -21,4 +21,11 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Recent Panel -->
+   <PreferenceScreen
+    android:key="recents"
+    android:fragment="com.atomicos.laboratory.fragments.Recents"
+    android:layout="@layout/preference_recents"
+    android:title="@string/recents_category" />
+
 </PreferenceScreen>
