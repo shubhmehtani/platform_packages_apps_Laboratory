@@ -28,11 +28,11 @@
      android:icon="@drawable/ic_quick_settings" />
 
     <!-- Recent Panel -->
-   <!--PreferenceScreen
+   <PreferenceScreen
     android:key="recents"
     android:fragment="com.aos.laboratory.cat.Recents"
-    android:layout="@layout/preference_recents"
-    android:title="@string/recents_category" /-->
+    android:icon="@drawable/ic_recents"
+    android:title="@string/recents_category" />
 
     <PreferenceCategory
         android:key="notifications_category"
