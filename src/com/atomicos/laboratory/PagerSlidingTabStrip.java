@@ -44,6 +44,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.settings.R;
+import com.android.settings.Utils;
 
 import java.util.Locale;
 
@@ -160,8 +161,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
         TypedArray a = context.obtainStyledAttributes(attrs, ATTRS);
         tabTextSize = a.getDimensionPixelSize(TEXT_SIZE_INDEX, tabTextSize);
         ColorStateList colorStateList = a.getColorStateList(TEXT_COLOR_INDEX);
-        int textPrimaryColor = getResources().getColor(R.color.material_deep_teal_500);
-        int tabTextColor = getResources().getColor(R.color.material_deep_teal_500);
+        int textPrimaryColor = Utils.getColorAccent(context);
+        int tabTextColor = Utils.getColorAccent(context);
 
         underlineColor = textPrimaryColor;
         dividerColor = textPrimaryColor;
