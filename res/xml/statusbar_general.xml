@@ -19,11 +19,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_general">
 
- <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
+
+ <ListPreference
+   android:entries="@array/ticker_mode_entries"
+   android:entryValues="@array/ticker_mode_values"
    android:key="status_bar_show_ticker"
-   android:title="@string/ticker_title"
-   android:summary="@string/ticker_summary"
-   android:defaultValue="false" />
+   android:summary="%s"
+   android:title="@string/ticker_title" />
 
  <com.atomicos.laboratory.preference.GlobalSettingSwitchPreference
    android:key="heads_up_notifications_enabled"
