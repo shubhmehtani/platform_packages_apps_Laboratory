@@ -41,4 +41,10 @@
         android:title="@string/ticker_title"
         android:icon="@drawable/ic_ticker" />
 
+    <PreferenceScreen
+        android:key="statusbar_general"
+        android:fragment="com.aos.laboratory.cat.StatusbarGeneral"
+        android:title="@string/statusbar_general"
+        android:icon="@drawable/ic_statusbar_general" />
+
 </PreferenceScreen>
