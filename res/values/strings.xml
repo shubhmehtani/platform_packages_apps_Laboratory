@@ -29,6 +29,7 @@
     <string name="button_settings">Button settings</string>
     <string name="quick_settings_category">Quick Settings</string>
     <string name="recents_category">Recent Panel</string>
+    <string name="statusbar_general">General</string>
 
     <!-- Battery settings -->
     <string name="status_bar_battery_style_category">Battery</string>
