@@ -25,6 +25,7 @@
     <string name="navigation_category">Navigation</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="panels_category">Panels</string>
+    <string name="misc_category">Miscellaneous</string> 
     <string name="statusbar_items_category">Statusbar items</string>
     <string name="button_settings">Button settings</string>
     <string name="quick_settings_category">Quick Settings</string>
