@@ -27,16 +27,19 @@
   
    <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
     android:key="vibrate_on_connect"
+    android:icon="@drawable/ic_vibrate_call_connect"
     android:title="@string/incall_vibrate_connect_title"
     android:defaultValue="false" />
    
    <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
     android:key="vibrate_on_callwaiting"
+    android:icon="@drawable/ic_vibrate_call_wait"
     android:title="@string/incall_vibrate_call_wait_title"
     android:defaultValue="false" />
  
    <com.atomicos.laboratory.preference.SystemSettingSwitchPreference
     android:key="vibrate_on_disconnect"
+    android:icon="@drawable/ic_vibrate_call_disconnect"
     android:title="@string/incall_vibrate_disconnect_title"
     android:defaultValue="false" />
 
