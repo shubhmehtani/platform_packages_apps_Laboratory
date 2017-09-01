@@ -97,6 +97,10 @@
     <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Bottom shortcuts</string>
     <string name="systemui_tuner_lockscreen_bottom_shortcuts_summary">Configure the bottom shortcuts in the keyguard</string>
 
+    <!-- Douple tap lockscreen gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep gesture</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere to sleep on lockscreen</string>
+
     <!-- App Ops -->
     <string name="app_ops_category">App Ops</string>
 
