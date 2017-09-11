@@ -51,6 +51,9 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
 
     private ListPreference mLaunchPlayerHeadsetConnection;
 
+    private PreferenceCategory mLedsCategory;
+    private Preference mChargingLeds;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
               super.onCreate(savedInstanceState);
@@ -69,7 +72,19 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         if (!Utils.isVoiceCapable(getActivity())) {
             prefSet.removePreference(incallVibCategory);
         }
-    }
+
+        mLedsCategory = (PreferenceCategory) findPreference("light_category");
+        mChargingLeds = (Preference) findPreference("battery_charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            mLedsCategory.removePreference(mChargingLeds);
+        }
+          if (mChargingLeds == null) {
+            prefSet.removePreference(mLedsCategory);
+        }
+
+   }
 
     @Override
     public int getMetricsCategory() {

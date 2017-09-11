@@ -58,4 +58,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="com.aos.laboratory.cat.BatteryLightSettings"
+         android:title="@string/battery_light_settings"
+         android:icon="@drawable/ic_settings_led" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
