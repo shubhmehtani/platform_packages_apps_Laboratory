@@ -448,6 +448,10 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+
     <!-- Notifications sound and vibration if screen is on -->
     <string name="notification_sound_vib_screen_on_title">Notifications sound and vibration if screen is on</string>
     <string name="notification_sound_vib_screen_on_never">Never</string>

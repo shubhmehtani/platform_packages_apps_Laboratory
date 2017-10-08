@@ -65,4 +65,10 @@
         android:summary="@string/hide_lockscreen_alarm_summary"
         android:defaultValue="true" />
 
+    <com.aos.laboratory.preferences.SystemSettingSwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_judge_title"
+        android:summary="@string/pocket_judge_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
