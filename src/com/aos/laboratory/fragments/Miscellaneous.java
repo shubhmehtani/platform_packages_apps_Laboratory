@@ -33,6 +33,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.android.settings.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
@@ -46,6 +47,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     private ListPreference mLaunchPlayerHeadsetConnection;
 
@@ -54,6 +56,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
               super.onCreate(savedInstanceState);
               addPreferencesFromResource(R.xml.MiscPrefs);
               ContentResolver resolver = getActivity().getContentResolver();
+              final PreferenceScreen prefSet = getPreferenceScreen();
 
         mLaunchPlayerHeadsetConnection = (ListPreference) findPreference(HEADSET_CONNECT_PLAYER);
         int mLaunchPlayerHeadsetConnectionValue = Settings.System.getIntForUser(resolver,
@@ -61,6 +64,11 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
         mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
         mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefSet.removePreference(incallVibCategory);
+        }
     }
 
     @Override
