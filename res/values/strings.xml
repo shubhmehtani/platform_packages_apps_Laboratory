@@ -38,6 +38,7 @@
     <string name="quick_settings_category">Quick Settings</string>
     <string name="recents_category">Recent Panel</string>
     <string name="statusbar_general">General</string>
+    <string name="network_traffic_title">Network Traffic</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -48,6 +49,10 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- Network Traffic -->
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
 </resources>
 

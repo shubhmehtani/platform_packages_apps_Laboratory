@@ -26,4 +26,9 @@
         android:layout="@layout/preference_quick_settings"
         android:title="@string/quick_settings_category" /-->
 
+   <PreferenceScreen
+        android:key="network_traffic"
+        android:fragment="com.aos.laboratory.cat.NetworkTraffic"
+        android:title="@string/network_traffic_title" />
+
 </PreferenceScreen>
