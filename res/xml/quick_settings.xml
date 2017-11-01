@@ -27,4 +27,10 @@
         android:entryValues="@array/quick_pulldown_values"
         android:persistent="false" />
 
+    <com.aos.laboratory.preferences.SystemSettingSwitchPreference
+        android:key="qs_show_brightness_icon"
+        android:title="@string/brightness_icon_title"
+        android:summary="@string/brightness_icon_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
