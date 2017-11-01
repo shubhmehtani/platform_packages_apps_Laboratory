@@ -25,4 +25,9 @@
         android:fragment="com.aos.laboratory.cat.NetworkTraffic"
         android:title="@string/network_traffic_title" />
 
+   <PreferenceScreen
+        android:key="ticker"
+        android:fragment="com.aos.laboratory.cat.Ticker"
+        android:title="@string/ticker_title" />
+
 </PreferenceScreen>

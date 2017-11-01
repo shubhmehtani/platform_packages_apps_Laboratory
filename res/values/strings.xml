@@ -39,6 +39,7 @@
     <string name="recents_category">Recent Panel</string>
     <string name="statusbar_general">General</string>
     <string name="network_traffic_title">Network Traffic</string>
+    <string name="ticker_title">Ticker</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -66,6 +67,12 @@
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Brightness slider icon</string>
     <string name="brightness_icon_summary">Show a brightness icon to the left of the brightness slider to toggle auto-brightness</string>
+
+    <!-- Status bar ticker -->
+    <string name="ticker_mode_title">Statusbar notification ticker</string>
+    <string name="ticker_disabled">Disabled</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notification and music ticker</string>
 
 </resources>
 
