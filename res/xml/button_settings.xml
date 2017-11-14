@@ -205,4 +205,10 @@
         android:defaultValue="false"
         android:disableDependentsState="true" />
 
+    <com.aos.laboratory.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
