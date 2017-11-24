@@ -20,11 +20,11 @@
     android:title="@string/navigation_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <!-- Preference
+     <Preference
         android:key="navigation_options"
-        android:fragment="com.aos.laboratory.cat.NavbarSettings"
-        android:layout="@layout/preference_navigation"
-        android:title="@string/navigationbar_settings_title" /-->
+        android:fragment="com.aos.laboratory.cat.NavigationBar"
+        android:icon="@drawable/ic_navigation"
+        android:title="@string/navigationbar_settings_title" />
 
     <!-- PreferenceScreen
         android:key="button_settings"
