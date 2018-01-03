@@ -21,27 +21,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.aos.laboratory.Laboratory">
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/appBarLayout"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentTop="true"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:title="@string/app_name"
-            app:layout_collapseMode="pin"/>
-
-    </android.support.design.widget.AppBarLayout>
-
     <android.support.v4.view.ViewPager
         android:id="@+id/prefsViewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/appBarLayout"
+        android:layout_alignParentTop="true"
         android:layout_above="@+id/navigationBar"
         android:animateLayoutChanges="true"/>
 
