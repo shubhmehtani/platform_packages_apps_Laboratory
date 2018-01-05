@@ -22,7 +22,6 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -37,10 +36,12 @@ import com.aos.laboratory.fragments.Lockscreen;
 import com.aos.laboratory.fragments.Miscellaneous;
 import com.aos.laboratory.fragments.Navigation;
 import com.aos.laboratory.fragments.Statusbar;
+import com.aos.laboratory.navigation.*;
 
 public class Laboratory extends SettingsPreferenceFragment {
 
-    BottomNavigationView navigationBar;
+    BottomNavigationViewCustom navigationBar;
+    MenuItem menuitem;
     ViewPager prefsViewpager;
     String titleString[];
 
@@ -51,14 +52,14 @@ public class Laboratory extends SettingsPreferenceFragment {
         View root = inflater.inflate(R.layout.fragment_laboratory, container, false);
 
         prefsViewpager = root.findViewById(R.id.prefsViewpager);
-        //navigationBar = root.findViewById(R.id.navigationBar);
+        navigationBar = root.findViewById(R.id.navigationBar);
 
         //navigationBar.inflateMenu(R.xml.bottom_navigation_items);
 
         prefsAdapter prefsAdapter = new prefsAdapter(getFragmentManager());
         prefsViewpager.setAdapter(prefsAdapter);
 
-        /*navigationBar.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        navigationBar.setOnNavigationItemSelectedListener(new BottomNavigationViewCustom.OnNavigationItemSelectedListener() {
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -80,6 +81,28 @@ public class Laboratory extends SettingsPreferenceFragment {
                 }
 
                 return true;
+            }
+        });
+
+	/*prefsViewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if(menuitem != null) {
+                    menuitem.setChecked(false);
+                } else {
+                    navigationBar.getMenu().getItem(0).setChecked(false);
+                }
+                navigationBar.getMenu().getItem(position).setChecked(true);
+                menuitem = navigationBar.getMenu().getItem(position);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
             }
         });*/
 
