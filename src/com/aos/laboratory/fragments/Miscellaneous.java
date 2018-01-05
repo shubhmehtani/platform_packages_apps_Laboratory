@@ -35,10 +35,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.android.settings.Utils;
 
+import com.android.internal.utils.du.DUActionUtils;
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-
-import com.aos.laboratory.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -48,8 +48,10 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     private ListPreference mLaunchPlayerHeadsetConnection;
+    private ListPreference mTorchPowerButton;
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
@@ -83,6 +85,19 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
           if (mChargingLeds == null) {
             prefSet.removePreference(mLedsCategory);
         }
+        if (!DUActionUtils.deviceSupportsFlashLight(getContext())) {
+            Preference toRemove = prefSet.findPreference(TORCH_POWER_BUTTON_GESTURE);
+            if (toRemove != null) {
+                prefSet.removePreference(toRemove);
+            }
+        } else {
+            mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+            int mTorchPowerButtonValue = Settings.Secure.getInt(resolver,
+                    Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+            mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+            mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+            mTorchPowerButton.setOnPreferenceChangeListener(this);
+        }
 
    }
 
@@ -110,6 +125,19 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                     mLaunchPlayerHeadsetConnection.getEntries()[index]);
             Settings.System.putIntForUser(resolver, Settings.System.HEADSET_CONNECT_PLAYER,
                     mLaunchPlayerHeadsetConnectionValue, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.Secure.putInt(resolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            if (mTorchPowerButtonValue == 1) {
+                //if doubletap for torch is enabled, switch off double tap for camera
+                Settings.Secure.putInt(resolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
+                        1);
+            }
             return true;
         }
          return false;
