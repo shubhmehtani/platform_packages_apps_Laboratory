@@ -29,13 +29,14 @@
         android:layout_above="@+id/navigationBar"
         android:animateLayoutChanges="true"/>
 
-    <android.support.design.widget.BottomNavigationView
+    <com.aos.laboratory.navigation.BottomNavigationViewCustom
         android:id="@+id/navigationBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="#fff"
         app:itemIconTint="@drawable/nav_item_state_list"
-        app:itemTextColor="@drawable/nav_item_state_list"/>
+        app:itemTextColor="@drawable/nav_item_state_list"
+	app:menu="@menu/bottom_navigation_items"/>
 
 </RelativeLayout>

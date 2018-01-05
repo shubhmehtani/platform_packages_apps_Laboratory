@@ -51,14 +51,14 @@ public class Laboratory extends SettingsPreferenceFragment {
         View root = inflater.inflate(R.layout.fragment_laboratory, container, false);
 
         prefsViewpager = root.findViewById(R.id.prefsViewpager);
-        navigationBar = root.findViewById(R.id.navigationBar);
+        //navigationBar = root.findViewById(R.id.navigationBar);
 
-        navigationBar.inflateMenu(R.xml.bottom_navigation_items);
+        //navigationBar.inflateMenu(R.xml.bottom_navigation_items);
 
         prefsAdapter prefsAdapter = new prefsAdapter(getFragmentManager());
         prefsViewpager.setAdapter(prefsAdapter);
 
-        navigationBar.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        /*navigationBar.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -81,7 +81,7 @@ public class Laboratory extends SettingsPreferenceFragment {
 
                 return true;
             }
-        });
+        });*/
 
         return root;
     }
