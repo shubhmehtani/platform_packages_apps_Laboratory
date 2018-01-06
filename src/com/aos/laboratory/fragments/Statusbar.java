@@ -43,7 +43,7 @@ public class Statusbar extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
               super.onCreate(savedInstanceState);
-              //addPreferencesFromResource(R.xml.StatusbarPrefs);
+              addPreferencesFromResource(R.xml.StatusbarPrefs);
               ContentResolver resolver = getActivity().getContentResolver();
     }
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Team Darkness Project
+ * Copyright (C) 2017-18 Team Darkness Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,13 +37,16 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.aos.laboratory.R;
 
-public class Lockscreen extends SettingsPreferenceFragment implements
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class Panels extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
               super.onCreate(savedInstanceState);
-              addPreferencesFromResource(R.xml.LockscreenPrefs);
+              addPreferencesFromResource(R.xml.PanelsPrefs);
               ContentResolver resolver = getActivity().getContentResolver();
     }
 

@@ -46,7 +46,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
               super.onCreate(savedInstanceState);
-              //addPreferencesFromResource(R.xml.MicsPrefs);
+              addPreferencesFromResource(R.xml.MiscPrefs);
               ContentResolver resolver = getActivity().getContentResolver();
     }
 

@@ -29,9 +29,13 @@
         android:icon="@drawable/gamepad"
         android:title="@string/nav_navigation"/>
     <item
-        android:id="@+id/action_mics"
+        android:id="@+id/action_panels"
+        android:icon="@drawable/panels"
+        android:title="@string/nav_panels"/>
+    <item
+        android:id="@+id/action_misc"
         android:icon="@drawable/dice_3"
-        android:title="@string/nav_mics"/>
+        android:title="@string/nav_misc"/>
     <!--<item
         android:id="@+id/action_item5"
         android:icon="@drawable/account_circle"

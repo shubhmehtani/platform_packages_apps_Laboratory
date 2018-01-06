@@ -36,6 +36,7 @@ import com.aos.laboratory.fragments.Lockscreen;
 import com.aos.laboratory.fragments.Miscellaneous;
 import com.aos.laboratory.fragments.Navigation;
 import com.aos.laboratory.fragments.Statusbar;
+import com.aos.laboratory.fragments.Panels;
 import com.aos.laboratory.navigation.*;
 
 public class Laboratory extends SettingsPreferenceFragment {
@@ -75,8 +76,11 @@ public class Laboratory extends SettingsPreferenceFragment {
                     case R.id.action_navigation:
                         prefsViewpager.setCurrentItem(2, true);
                         break;
-                    case R.id.action_mics:
+                    case R.id.action_panels:
                         prefsViewpager.setCurrentItem(3, true);
+                        break;
+                    case R.id.action_misc:
+                       prefsViewpager.setCurrentItem(4, true);
                         break;
                 }
 
@@ -123,7 +127,8 @@ public class Laboratory extends SettingsPreferenceFragment {
             frags[0] = new Statusbar();
             frags[1] = new Navigation();
             frags[2] = new Lockscreen();
-            frags[3] = new Miscellaneous();
+            frags[3] = new Panels();
+            frags[4] = new Miscellaneous();
         }
 
         @Override
@@ -148,7 +153,8 @@ public class Laboratory extends SettingsPreferenceFragment {
                 getString(R.string.nav_statusbar),
                 getString(R.string.nav_navigation),
                 getString(R.string.nav_lockscreen),
-                getString(R.string.nav_mics)};
+                getString(R.string.nav_panels),
+                getString(R.string.nav_misc)};
         return titleString;
     }
 
