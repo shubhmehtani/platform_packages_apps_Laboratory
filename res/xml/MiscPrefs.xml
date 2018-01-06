@@ -20,4 +20,11 @@
     android:title="@string/misc_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- AppOps -->
+    <Preference
+        android:key="app_ops"
+        android:fragment="com.android.settings.applications.AppOpsSummary"
+        android:title="@string/app_ops_category"
+        android:icon="@drawable/ic_appops" />
+
 </PreferenceScreen>
