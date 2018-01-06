@@ -20,6 +20,14 @@
     android:title="@string/statusbar_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+   <Preference
+        android:key="icon_manager_title"
+        android:title="@string/icon_manager_title">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.TunerActivity" />
+   </Preference>
+
    <PreferenceScreen
         android:key="network_traffic"
         android:fragment="com.aos.laboratory.cat.NetworkTraffic"
