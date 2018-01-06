@@ -88,7 +88,7 @@ public class Laboratory extends SettingsPreferenceFragment {
             }
         });
 
-	/*prefsViewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+	prefsViewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
@@ -108,7 +108,7 @@ public class Laboratory extends SettingsPreferenceFragment {
             @Override
             public void onPageScrollStateChanged(int state) {
             }
-        });*/
+        });
 
         return root;
     }
