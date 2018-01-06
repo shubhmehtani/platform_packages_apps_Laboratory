@@ -70,10 +70,10 @@ public class Laboratory extends SettingsPreferenceFragment {
                     case R.id.action_statusbar:
                        prefsViewpager.setCurrentItem(0, true);
                         break;
-                    case R.id.action_lockscreen:
+                    case R.id.action_navigation:
                         prefsViewpager.setCurrentItem(1, true);
                         break;
-                    case R.id.action_navigation:
+                    case R.id.action_lockscreen:
                         prefsViewpager.setCurrentItem(2, true);
                         break;
                     case R.id.action_panels:

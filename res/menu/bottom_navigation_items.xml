@@ -21,13 +21,13 @@
         android:icon="@drawable/window_open"
         android:title="@string/nav_statusbar"/>
     <item
-        android:id="@+id/action_lockscreen"
-        android:icon="@drawable/lock"
-        android:title="@string/nav_lockscreen"/>
-    <item
         android:id="@+id/action_navigation"
         android:icon="@drawable/gamepad"
         android:title="@string/nav_navigation"/>
+    <item
+        android:id="@+id/action_lockscreen"
+        android:icon="@drawable/lock"
+        android:title="@string/nav_lockscreen"/>
     <item
         android:id="@+id/action_panels"
         android:icon="@drawable/panels"
