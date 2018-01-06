@@ -22,7 +22,8 @@
 
    <Preference
         android:key="icon_manager_title"
-        android:title="@string/icon_manager_title">
+        android:title="@string/icon_manager_title"
+        android:icon="@drawable/ic_icons_manager">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.systemui"
             android:targetClass="com.android.systemui.tuner.TunerActivity" />
@@ -31,11 +32,13 @@
    <PreferenceScreen
         android:key="network_traffic"
         android:fragment="com.aos.laboratory.cat.NetworkTraffic"
-        android:title="@string/network_traffic_title" />
+        android:title="@string/network_traffic_title"
+        android:icon="@drawable/ic_network_traffic" />
 
    <PreferenceScreen
         android:key="ticker"
         android:fragment="com.aos.laboratory.cat.Ticker"
-        android:title="@string/ticker_title" />
+        android:title="@string/ticker_title"
+        android:icon="@drawable/ic_ticker" />
 
 </PreferenceScreen>

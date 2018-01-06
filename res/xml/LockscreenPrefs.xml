@@ -22,6 +22,7 @@
 
     <Preference
         android:key="bottom_shortcuts_category"
+        android:icon="@drawable/ic_shortcuts"
         android:title="@string/systemui_tuner_lockscreen_bottom_shortcuts_title"
         android:summary="@string/systemui_tuner_lockscreen_bottom_shortcuts_summary">
         <intent android:action="android.intent.action.MAIN"
