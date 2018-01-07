@@ -26,10 +26,10 @@
         android:icon="@drawable/ic_navigation"
         android:title="@string/navigationbar_settings_title" />
 
-    <!-- PreferenceScreen
-        android:key="button_settings"
+    <PreferenceScreen
+        android:key="buttons"
         android:title="@string/button_settings"
-        android:layout="@layout/preference_buttons"
-        android:fragment="com.aos.laboratory.cat.ButtonSettings" /-->
+        android:icon="@drawable/ic_button"
+        android:fragment="com.aos.laboratory.cat.Buttons" />
 
 </PreferenceScreen>
