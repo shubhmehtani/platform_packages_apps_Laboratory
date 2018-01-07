@@ -30,6 +30,7 @@
     <ListPreference
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
+        android:icon="@drawable/ic_headphones"
         android:entries="@array/headset_connect_player_entries"
         android:entryValues="@array/headset_connect_player_values" />
 
