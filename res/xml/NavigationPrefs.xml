@@ -32,4 +32,10 @@
         android:icon="@drawable/ic_button"
         android:fragment="com.aos.laboratory.cat.Buttons" />
 
+    <PreferenceScreen
+        android:key="power_menu"
+        android:title="@string/power_menu_settings"
+        android:icon="@drawable/ic_power_menu"
+        android:fragment="com.aos.laboratory.cat.PowerMenu" />
+
 </PreferenceScreen>

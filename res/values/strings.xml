@@ -40,6 +40,7 @@
     <string name="statusbar_general">General</string>
     <string name="network_traffic_title">Network Traffic</string>
     <string name="ticker_title">Ticker</string>
+    <string name="power_menu_settings">Power Menu</string>
 
     <!-- General -->
     <string name="ok">Okay</string>
