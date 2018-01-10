@@ -174,10 +174,7 @@ public class NavigationBar extends SettingsPreferenceFragment implements Prefere
             updateBarModeSettings(mode);
             return true;
         } else if (preference.equals(mNavbarVisibility)) {
-            if (mIsNavSwitchingMode) {
-                return false;
-            }
-            mIsNavSwitchingMode = true;
+            mNavbarVisibility.setEnabled(false);
             boolean showing = ((Boolean)newValue);
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE,
                     showing ? 1 : 0);
@@ -185,7 +182,7 @@ public class NavigationBar extends SettingsPreferenceFragment implements Prefere
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    mIsNavSwitchingMode = false;
+                    mNavbarVisibility.setEnabled(true);
                 }
             }, 1500);
             return true;
