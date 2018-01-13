@@ -34,9 +34,9 @@
     android:layout="@layout/preference_recents"
     android:title="@string/recents_category" /-->
 
-    <PreferenceCategory
+    <!--PreferenceCategory
         android:key="headsup_notifications_category"
-        android:title="@string/headsup_category">
+        android:title="@string/headsup_category"-->
 
      <Preference
         android:key="heads_up_notifications"
@@ -44,6 +44,6 @@
         android:icon="@drawable/ic_headsup"
         android:fragment="com.aos.laboratory.cat.HeadsUpSettings"/>
 
-    </PreferenceCategory>
+    <!--PreferenceCategory-->
 
 </PreferenceScreen>
