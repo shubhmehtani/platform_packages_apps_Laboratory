@@ -41,6 +41,12 @@
         android:title="@string/ticker_title"
         android:icon="@drawable/ic_ticker" />
 
+   <PreferenceScreen
+        android:key="custom_carrier_label"
+        android:fragment="com.aos.laboratory.cat.CarrierLabel"
+        android:title="@string/carrier_label"
+        android:icon="@drawable/ic_carrier_label" />
+
     <PreferenceScreen
         android:key="statusbar_general"
         android:fragment="com.aos.laboratory.cat.StatusbarGeneral"
