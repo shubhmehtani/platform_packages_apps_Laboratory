@@ -20,11 +20,12 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.preference.ListPreference;
+import android.os.UserHandle;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
-import android.preference.Preference;
 import android.preference.PreferenceCategory;
-import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
@@ -43,11 +44,22 @@ import com.aos.laboratory.R;
 public class Panels extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+
+    private ListPreference mNoisyNotification;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
               super.onCreate(savedInstanceState);
               addPreferencesFromResource(R.xml.PanelsPrefs);
               ContentResolver resolver = getActivity().getContentResolver();
+
+       mNoisyNotification = (ListPreference) findPreference("notification_sound_vib_screen_on");
+        mNoisyNotification.setOnPreferenceChangeListener(this);
+        int mode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON,
+                1, UserHandle.USER_CURRENT);
+        mNoisyNotification.setValue(String.valueOf(mode));
+        mNoisyNotification.setSummary(mNoisyNotification.getEntry());
     }
 
     @Override
@@ -65,9 +77,19 @@ public class Panels extends SettingsPreferenceFragment implements
         super.onPause();
     }
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
         final String key = preference.getKey();
-        return true;
+         ContentResolver resolver = getActivity().getContentResolver();
+        if (preference.equals(mNoisyNotification)) {
+            int mode = Integer.parseInt(((String) newValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON, mode, UserHandle.USER_CURRENT);
+            int index = mNoisyNotification.findIndexOfValue((String) newValue);
+            mNoisyNotification.setSummary(
+                    mNoisyNotification.getEntries()[index]);
+            return true;
+	}
+          return false;
     }
 
 }

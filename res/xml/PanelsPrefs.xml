@@ -44,12 +44,13 @@
         android:icon="@drawable/ic_headsup"
         android:fragment="com.aos.laboratory.cat.HeadsUpSettings"/>
 
-        <com.aos.laboratory.preferences.SystemSettingSwitchPreference
-            android:key="notification_sound_vib_screen_on"
-            android:icon="@drawable/ic_notif_sound"
-            android:title="@string/notification_sound_vib_screen_on_title"
-            android:summary="@string/notification_sound_vib_screen_on_summary"
-            android:defaultValue="true" />
+     <ListPreference
+        android:key="notification_sound_vib_screen_on"
+        android:icon="@drawable/ic_notif_sound"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:entries="@array/notification_sound_vib_screen_on_entries"
+        android:entryValues="@array/notification_sound_vib_screen_on_values"
+        android:summary="%s" />
 
     <!--PreferenceCategory-->
 
