@@ -21,6 +21,7 @@ import android.app.FragmentManager;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.graphics.drawable.ColorDrawable;
 import android.support.annotation.NonNull;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -59,6 +60,8 @@ public class Laboratory extends SettingsPreferenceFragment {
 
         prefsAdapter prefsAdapter = new prefsAdapter(getFragmentManager());
         prefsViewpager.setAdapter(prefsAdapter);
+
+        navigationBar.setBackground(new ColorDrawable(getResources().getColor(R.color.bottom_navbar_bg)));
 
         navigationBar.setOnNavigationItemSelectedListener(new BottomNavigationViewCustom.OnNavigationItemSelectedListener() {
 
