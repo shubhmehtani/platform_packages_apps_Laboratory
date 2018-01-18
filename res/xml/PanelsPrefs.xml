@@ -34,9 +34,9 @@
     android:layout="@layout/preference_recents"
     android:title="@string/recents_category" /-->
 
-    <!--PreferenceCategory
-        android:key="headsup_notifications_category"
-        android:title="@string/headsup_category"-->
+    <PreferenceCategory
+        android:key="notifications_category"
+        android:title="@string/notifications_category">
 
      <Preference
         android:key="heads_up_notifications"
@@ -52,6 +52,6 @@
         android:entryValues="@array/notification_sound_vib_screen_on_values"
         android:summary="%s" />
 
-    <!--PreferenceCategory-->
+    </PreferenceCategory>
 
 </PreferenceScreen>
