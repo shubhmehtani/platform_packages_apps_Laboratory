@@ -70,21 +70,21 @@
   <string name="custom_carrier_label_title">Eigene Netzbetreiber-Anzeige</string>
   <string name="custom_carrier_label_explain">Eigenes Label eingeben. Leer lassen, um Netzwerknamen zu verwenden</string>
   <string name="custom_carrier_label_notset">Benutzerdefiniertes Label ist derzeit nicht gesetzt</string>
-  <string name="show_carrier_title">Carrier label</string>
-  <string name="show_carrier_disabled">Disabled</string>
-  <string name="show_carrier_keyguard">Lockscreen</string>
-  <string name="show_carrier_statusbar">Status bar</string>
-  <string name="show_carrier_enabled">Both</string>
+  <string name="show_carrier_title">Netzbetreiber-Label</string>
+  <string name="show_carrier_disabled">Deaktiviert</string>
+  <string name="show_carrier_keyguard">Sperrbildschirm</string>
+  <string name="show_carrier_statusbar">Statusleiste</string>
+  <string name="show_carrier_enabled">Beides</string>
   <!-- Quick Pulldown-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_title">Schnelles Herunterziehen</string>
+  <string name="quick_pulldown_summary">%1$s Rand der Statusleiste zieht die Schnelleinstellungen nach unten</string>
+  <string name="quick_pulldown_summary_always">Die Schnelleinstellungen beim Herunterziehen der Statusleiste immer anzeigen</string>
+  <string name="quick_pulldown_off">Aus</string>
+  <string name="quick_pulldown_left">Links</string>
+  <string name="quick_pulldown_right">Rechts</string>
+  <string name="quick_pulldown_always">Immer</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Auto-brightness icon</string>
+  <string name="brightness_icon_title">Symbol für Auto-Helligkeit</string>
   <string name="brightness_icon_summary">Show a auto-brightness icon to the right of the brightness slider to toggle auto-brightness</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Brightness slider</string>
