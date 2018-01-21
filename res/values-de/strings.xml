@@ -36,55 +36,55 @@
   <string name="recents_category">Recent Panel</string>
   <string name="statusbar_general">General</string>
   <string name="network_traffic_title">Network Traffic</string>
-  <string name="ticker_title">Benachrichtigungsticker</string>
-  <string name="power_menu_settings">Power-Menü</string>
-  <string name="light_category">Lichter</string>
-  <string name="carrier_label">Anbieter-Label</string>
-  <string name="notifications_category">Benachrichtigungseinstellungen</string>
+  <string name="ticker_title">Ticker</string>
+  <string name="power_menu_settings">Power Menu</string>
+  <string name="light_category">Lights</string>
+  <string name="carrier_label">Carrier Label</string>
+  <string name="notifications_category">Notifications Settings</string>
   <!-- General -->
   <string name="ok">Okay</string>
-  <string name="reset">Zurücksetzen</string>
+  <string name="reset">Reset</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Hintergrundbeleuchtungseinstellungen</string>
-  <string name="button_backlight_enable_title">Tastenbeleuchtung erlauben</string>
+  <string name="button_backlight_options_category">Backlight options</string>
+  <string name="button_backlight_enable_title">Allow button backlight</string>
   <string name="button_link_brightness">Link to screen brightness</string>
-  <string name="button_link_brightness_summary">Tastenbeleuchtung wird basierend Bildschirmhelligkeit angepasst</string>
-  <string name="button_manual_brightness">Helligkeitsstufe</string>
-  <string name="button_timeout_title">Timeout für Tastenbeleuchtung</string>
+  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
+  <string name="button_manual_brightness">Brightness level</string>
+  <string name="button_timeout_title">Backlight timeout</string>
   <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
   <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Farbwähler</string>
-  <string name="press_color_to_apply">Gewünschte Farbe antippen, um sie anzuwenden</string>
+  <string name="dialog_color_picker">Color Picker</string>
+  <string name="press_color_to_apply">Press on color below to apply</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
-  <string name="hex">Hexadezimal:</string>
+  <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Speichern</string>
-  <string name="color_default">Standard</string>
+  <string name="set">Set</string>
+  <string name="color_default">Default</string>
   <!-- Network Traffic -->
-  <string name="network_traffic_state_title">Netzwerkaktivität in der Statusleiste anzeigen</string>
-  <string name="network_traffic_autohide_threshold_title">Schwellenwert (kB/s) zur Anzeige von Netzwerkaktivitäten</string>
+  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
   <!-- Carrier Label -->
   <string name="carrier_options">Select display locations</string>
-  <string name="custom_carrier_label_title">Eigene Netzbetreiber-Anzeige</string>
-  <string name="custom_carrier_label_explain">Eigenes Label eingeben. Leer lassen, um Netzwerknamen zu verwenden</string>
-  <string name="custom_carrier_label_notset">Benutzerdefiniertes Label ist derzeit nicht gesetzt</string>
-  <string name="show_carrier_title">Netzbetreiber-Label</string>
-  <string name="show_carrier_disabled">Deaktiviert</string>
-  <string name="show_carrier_keyguard">Sperrbildschirm</string>
-  <string name="show_carrier_statusbar">Statusleiste</string>
-  <string name="show_carrier_enabled">Beides</string>
+  <string name="custom_carrier_label_title">Custom carrier label</string>
+  <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+  <string name="custom_carrier_label_notset">Custom label currently not set</string>
+  <string name="show_carrier_title">Carrier label</string>
+  <string name="show_carrier_disabled">Disabled</string>
+  <string name="show_carrier_keyguard">Lockscreen</string>
+  <string name="show_carrier_statusbar">Status bar</string>
+  <string name="show_carrier_enabled">Both</string>
   <!-- Quick Pulldown-->
-  <string name="quick_pulldown_title">Schnelles Herunterziehen</string>
-  <string name="quick_pulldown_summary">%1$s Rand der Statusleiste zieht die Schnelleinstellungen nach unten</string>
-  <string name="quick_pulldown_summary_always">Die Schnelleinstellungen beim Herunterziehen der Statusleiste immer anzeigen</string>
-  <string name="quick_pulldown_off">Aus</string>
-  <string name="quick_pulldown_left">Links</string>
-  <string name="quick_pulldown_right">Rechts</string>
-  <string name="quick_pulldown_always">Immer</string>
+  <string name="quick_pulldown_title">Quick pulldown</string>
+  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+  <string name="quick_pulldown_off">Off</string>
+  <string name="quick_pulldown_left">Left</string>
+  <string name="quick_pulldown_right">Right</string>
+  <string name="quick_pulldown_always">Always</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Symbol für Auto-Helligkeit</string>
+  <string name="brightness_icon_title">Auto-brightness icon</string>
   <string name="brightness_icon_summary">Show a auto-brightness icon to the right of the brightness slider to toggle auto-brightness</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Brightness slider</string>
