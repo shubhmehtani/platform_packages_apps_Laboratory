@@ -17,25 +17,25 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tabs -->
-  <string name="app_name">Laboratorium</string>
-  <string name="nav_navigation">Nawigacja</string>
-  <string name="nav_lockscreen">Ekran blokady</string>
-  <string name="nav_statusbar">Belka statusu</string>
-  <string name="nav_panels">Panele</string>
-  <string name="nav_misc">Pozostałe</string>
+  <string name="app_name">Laboratory</string>
+  <string name="nav_navigation">Navigation</string>
+  <string name="nav_lockscreen">Lock Screen</string>
+  <string name="nav_statusbar">Status Bar</string>
+  <string name="nav_panels">Panels</string>
+  <string name="nav_misc">Miscellaneous</string>
   <!-- TODO: Remove or change this placeholder text -->
   <string name="hello_blank_fragment">Hello blank fragment</string>
   <!-- Categories in tab -->
-  <string name="statusbar_category">Belka statusu</string>
-  <string name="navigation_category">Nawigacja</string>
-  <string name="lockscreen_category">Ekran blokady</string>
-  <string name="panels_category">Panele</string>
-  <string name="misc_category">Pozostałe</string>
-  <string name="button_settings">Ustawienia przycisków</string>
-  <string name="quick_settings_category">Szybkie przełączniki</string>
-  <string name="recents_category">Panel ostatnich aplikacji</string>
-  <string name="statusbar_general">Ogólne</string>
-  <string name="network_traffic_title">Ruch sieciowy</string>
+  <string name="statusbar_category">Status Bar</string>
+  <string name="navigation_category">Navigation</string>
+  <string name="lockscreen_category">Lockscreen</string>
+  <string name="panels_category">Panels</string>
+  <string name="misc_category">Miscellaneous</string>
+  <string name="button_settings">Button settings</string>
+  <string name="quick_settings_category">Quick Settings</string>
+  <string name="recents_category">Recent Panel</string>
+  <string name="statusbar_general">General</string>
+  <string name="network_traffic_title">Network Traffic</string>
   <string name="ticker_title">Ticker</string>
   <string name="power_menu_settings">Power Menu</string>
   <string name="light_category">Lights</string>
