@@ -48,25 +48,25 @@
   <string name="button_backlight_options_category">Arka aydınlatma seçenekleri</string>
   <string name="button_backlight_enable_title">Düğme arka ışığını aç</string>
   <string name="button_link_brightness">Ekran parlaklığını için bağlantı</string>
-  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
+  <string name="button_link_brightness_summary">Tuş arka ışıkları ekranın parlaklığına göre ayarlar</string>
   <string name="button_manual_brightness">Parlaklık düzeyi</string>
   <string name="button_timeout_title">Arka Işık Zaman Aşımı</string>
-  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+  <string name="button_backlight_on_touch_only_title">Tuş arka ışığı dokunmatiği</string>
+  <string name="button_backlight_on_touch_only_summary">Düğme arka ışık sadece düğmelere basıldığında yerine her zaman görünür. Zaman aşımı bu özellik etkiler.</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Renk Seçici</string>
+  <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="set">Ayarla</string>
+  <string name="color_default">Varsayılan</string>
   <!-- Network Traffic -->
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
+  <string name="network_traffic_autohide_threshold_title">Ağ faaliyeti otomatik gizleme eşiği (KB/s)</string>
   <!-- Carrier Label -->
-  <string name="carrier_options">Select display locations</string>
+  <string name="carrier_options">Ekrandaki konumunu seçin</string>
   <string name="custom_carrier_label_title">Custom carrier label</string>
   <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
   <string name="custom_carrier_label_notset">Custom label currently not set</string>
