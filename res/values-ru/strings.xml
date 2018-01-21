@@ -78,29 +78,29 @@
   <!-- Quick Pulldown-->
   <string name="quick_pulldown_title">Быстрый доступ</string>
   <string name="quick_pulldown_summary">Правый угол строки состояния при опускании вниз открывает панель быстрых настроек</string>
-  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-  <string name="quick_pulldown_off">Off</string>
-  <string name="quick_pulldown_left">Left</string>
-  <string name="quick_pulldown_right">Right</string>
-  <string name="quick_pulldown_always">Always</string>
+  <string name="quick_pulldown_summary_always">Всегда вытягивать быстрые настройки</string>
+  <string name="quick_pulldown_off">Выкл</string>
+  <string name="quick_pulldown_left">Левый</string>
+  <string name="quick_pulldown_right">Правый</string>
+  <string name="quick_pulldown_always">Всегда</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Auto-brightness icon</string>
-  <string name="brightness_icon_summary">Show a auto-brightness icon to the right of the brightness slider to toggle auto-brightness</string>
+  <string name="brightness_icon_title">Иконка авто-яркости</string>
+  <string name="brightness_icon_summary">Показать значок включения авто-яркости справа от слайдера</string>
   <!-- Option to show brightness bar in quick settings -->
-  <string name="show_brightness_title">Brightness slider</string>
-  <string name="show_brightness_summary">Show the brightness slider</string>
+  <string name="show_brightness_title">Слайдер яркости</string>
+  <string name="show_brightness_summary">Показать ползунок регулировки яркости в панели быстрых настроек</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="hide_lockscreen_clock_title">Clock widget</string>
-  <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
-  <string name="hide_lockscreen_date_title">Date widget</string>
-  <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
-  <string name="hide_lockscreen_alarm_title">Alarm text</string>
-  <string name="hide_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
+  <string name="hide_lockscreen_clock_title">Виджет часов</string>
+  <string name="hide_lockscreen_clock_summary">Изменить видимость виджета часов</string>
+  <string name="hide_lockscreen_date_title">Виджет даты</string>
+  <string name="hide_lockscreen_date_summary">Изменить видимость даты под виджет часов</string>
+  <string name="hide_lockscreen_alarm_title">Текст будильника</string>
+  <string name="hide_lockscreen_alarm_summary">Изменить видимость текста будильника под виджет часов</string>
   <!-- Status bar ticker -->
-  <string name="ticker_mode_title">Statusbar notification ticker</string>
-  <string name="ticker_disabled">Disabled</string>
-  <string name="ticker_enabled">Notification ticker</string>
-  <string name="ticker_media_enabled">Notification and music ticker</string>
+  <string name="ticker_mode_title">Бегущая строка в строке состояния</string>
+  <string name="ticker_disabled">Отключено</string>
+  <string name="ticker_enabled">Текст уведомлений</string>
+  <string name="ticker_media_enabled">Бегущая строка для уведомлений и музыки</string>
   <!-- Statusbar Icons manager -->
   <string name="icon_manager_title">Icon manager</string>
   <!-- Bottom shortcuts -->
