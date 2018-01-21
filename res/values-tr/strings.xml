@@ -17,110 +17,110 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tabs -->
-  <string name="app_name">Laboratuvar</string>
-  <string name="nav_navigation">Navigasyon</string>
-  <string name="nav_lockscreen">Ekrani Kilitle</string>
-  <string name="nav_statusbar">Durum Çubuğu</string>
-  <string name="nav_panels">Paneller</string>
-  <string name="nav_misc">Muhtelif</string>
+  <string name="app_name">Laboratory</string>
+  <string name="nav_navigation">Navigation</string>
+  <string name="nav_lockscreen">Lock Screen</string>
+  <string name="nav_statusbar">Status Bar</string>
+  <string name="nav_panels">Panels</string>
+  <string name="nav_misc">Miscellaneous</string>
   <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Merhaba boş parça</string>
+  <string name="hello_blank_fragment">Hello blank fragment</string>
   <!-- Categories in tab -->
-  <string name="statusbar_category">Durum Çubuğu</string>
-  <string name="navigation_category">Navigasyon</string>
-  <string name="lockscreen_category">Kilit Ekranı</string>
-  <string name="panels_category">Paneller</string>
-  <string name="misc_category">Muhtelif</string>
-  <string name="button_settings">Buton ayarları</string>
-  <string name="quick_settings_category">Hızlı Ayarlar</string>
-  <string name="recents_category">Son kullanılanlar paneli</string>
-  <string name="statusbar_general">Genel</string>
-  <string name="network_traffic_title">Ağ Trafiği</string>
-  <string name="ticker_title">Şerit</string>
-  <string name="power_menu_settings">Güç Menüsü</string>
-  <string name="light_category">Işıklar</string>
-  <string name="carrier_label">Operatör etiketi</string>
-  <string name="notifications_category">Bildirim Ayarları</string>
+  <string name="statusbar_category">Status Bar</string>
+  <string name="navigation_category">Navigation</string>
+  <string name="lockscreen_category">Lockscreen</string>
+  <string name="panels_category">Panels</string>
+  <string name="misc_category">Miscellaneous</string>
+  <string name="button_settings">Button settings</string>
+  <string name="quick_settings_category">Quick Settings</string>
+  <string name="recents_category">Recent Panel</string>
+  <string name="statusbar_general">General</string>
+  <string name="network_traffic_title">Network Traffic</string>
+  <string name="ticker_title">Ticker</string>
+  <string name="power_menu_settings">Power Menu</string>
+  <string name="light_category">Lights</string>
+  <string name="carrier_label">Carrier Label</string>
+  <string name="notifications_category">Notifications Settings</string>
   <!-- General -->
-  <string name="ok">Tamam</string>
-  <string name="reset">Sıfırla</string>
+  <string name="ok">Okay</string>
+  <string name="reset">Reset</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Arka aydınlatma seçenekleri</string>
-  <string name="button_backlight_enable_title">Düğme arka ışığını aç</string>
-  <string name="button_link_brightness">Ekran parlaklığını için bağlantı</string>
-  <string name="button_link_brightness_summary">Tuş arka ışıkları ekranın parlaklığına göre ayarlar</string>
-  <string name="button_manual_brightness">Parlaklık düzeyi</string>
-  <string name="button_timeout_title">Arka Işık Zaman Aşımı</string>
-  <string name="button_backlight_on_touch_only_title">Tuş arka ışığı dokunmatiği</string>
-  <string name="button_backlight_on_touch_only_summary">Tuş arka ışığı her zaman yerine sadece tuşlara basıldığında açılır. Zaman aşımı bu özelliği etkilemeye devam eder.</string>
+  <string name="button_backlight_options_category">Backlight options</string>
+  <string name="button_backlight_enable_title">Allow button backlight</string>
+  <string name="button_link_brightness">Link to screen brightness</string>
+  <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
+  <string name="button_manual_brightness">Brightness level</string>
+  <string name="button_timeout_title">Backlight timeout</string>
+  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Renk Seçici</string>
-  <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
+  <string name="dialog_color_picker">Color Picker</string>
+  <string name="press_color_to_apply">Press on color below to apply</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Ayarla</string>
-  <string name="color_default">Varsayılan</string>
+  <string name="set">Set</string>
+  <string name="color_default">Default</string>
   <!-- Network Traffic -->
-  <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
-  <string name="network_traffic_autohide_threshold_title">Ağ faaliyeti otomatik gizleme eşiği (KB/s)</string>
+  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
   <!-- Carrier Label -->
-  <string name="carrier_options">Ekrandaki konumunu seçin</string>
-  <string name="custom_carrier_label_title">Özel operatör etiketi</string>
-  <string name="custom_carrier_label_explain">Özel bir etiket girin. Ağ adını kullanmak için boş bırakın</string>
-  <string name="custom_carrier_label_notset">Özel etiket şu anda ayarlanmamış</string>
-  <string name="show_carrier_title">Operatör etiketi</string>
-  <string name="show_carrier_disabled">Devre dışı</string>
-  <string name="show_carrier_keyguard">Ekran kilidi</string>
-  <string name="show_carrier_statusbar">Durum çubuğu</string>
-  <string name="show_carrier_enabled">Her ikisi de</string>
+  <string name="carrier_options">Select display locations</string>
+  <string name="custom_carrier_label_title">Custom carrier label</string>
+  <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+  <string name="custom_carrier_label_notset">Custom label currently not set</string>
+  <string name="show_carrier_title">Carrier label</string>
+  <string name="show_carrier_disabled">Disabled</string>
+  <string name="show_carrier_keyguard">Lockscreen</string>
+  <string name="show_carrier_statusbar">Status bar</string>
+  <string name="show_carrier_enabled">Both</string>
   <!-- Quick Pulldown-->
-  <string name="quick_pulldown_title">Hızlı aşağı çekme</string>
-  <string name="quick_pulldown_summary">Durum çubuğunu %1$s dan aşağı çekmek hızlı ayarları açar</string>
-  <string name="quick_pulldown_summary_always">Durum çubuğunu açtığında her zaman hızlı ayarlar açılır</string>
-  <string name="quick_pulldown_off">Kapalı</string>
-  <string name="quick_pulldown_left">Sol</string>
-  <string name="quick_pulldown_right">Sağ</string>
-  <string name="quick_pulldown_always">Herzaman</string>
+  <string name="quick_pulldown_title">Quick pulldown</string>
+  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+  <string name="quick_pulldown_off">Off</string>
+  <string name="quick_pulldown_left">Left</string>
+  <string name="quick_pulldown_right">Right</string>
+  <string name="quick_pulldown_always">Always</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Otomatik parlaklık</string>
-  <string name="brightness_icon_summary">Otomatik parlaklığı ayarlamak için parlaklık kaydırıcısının sağındaki parlaklık simgesini gösterin</string>
+  <string name="brightness_icon_title">Auto-brightness icon</string>
+  <string name="brightness_icon_summary">Show a auto-brightness icon to the right of the brightness slider to toggle auto-brightness</string>
   <!-- Option to show brightness bar in quick settings -->
-  <string name="show_brightness_title">Parlaklık kaydırıcı</string>
-  <string name="show_brightness_summary">Parlaklık kaydırıcısını göster</string>
+  <string name="show_brightness_title">Brightness slider</string>
+  <string name="show_brightness_summary">Show the brightness slider</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="hide_lockscreen_clock_title">Saat widgeti</string>
-  <string name="hide_lockscreen_clock_summary">Saat widget görünürlülüğünü değiştirme</string>
-  <string name="hide_lockscreen_date_title">Tarih widgeti</string>
-  <string name="hide_lockscreen_date_summary">Saat widget altında bulunan tarih görünürlülüğünü eğiştirme</string>
-  <string name="hide_lockscreen_alarm_title">Alarm metni</string>
-  <string name="hide_lockscreen_alarm_summary">Saat widget altında bulunan tarih görünürlülüğünü değiştirme</string>
+  <string name="hide_lockscreen_clock_title">Clock widget</string>
+  <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+  <string name="hide_lockscreen_date_title">Date widget</string>
+  <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+  <string name="hide_lockscreen_alarm_title">Alarm text</string>
+  <string name="hide_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
   <!-- Status bar ticker -->
-  <string name="ticker_mode_title">Durumçubuğu bildirim uyarısı</string>
-  <string name="ticker_disabled">Devre dışı</string>
-  <string name="ticker_enabled">Bildirim uyarısı</string>
-  <string name="ticker_media_enabled">Bildirim ve müzik uyarısı</string>
+  <string name="ticker_mode_title">Statusbar notification ticker</string>
+  <string name="ticker_disabled">Disabled</string>
+  <string name="ticker_enabled">Notification ticker</string>
+  <string name="ticker_media_enabled">Notification and music ticker</string>
   <!-- Statusbar Icons manager -->
-  <string name="icon_manager_title">İkon yöneticisi</string>
+  <string name="icon_manager_title">Icon manager</string>
   <!-- Bottom shortcuts -->
-  <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Alt kısayollar</string>
-  <string name="systemui_tuner_lockscreen_bottom_shortcuts_summary">Kilit ekranında aşağıda bulunan kısayolları ayarla</string>
+  <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Bottom shortcuts</string>
+  <string name="systemui_tuner_lockscreen_bottom_shortcuts_summary">Configure the bottom shortcuts in the keyguard</string>
   <!-- Douple tap lockscreen gesture -->
-  <string name="double_tap_sleep_lockscreen_title">Uykuya geçmek için iki kez dokunma hareketi</string>
-  <string name="double_tap_sleep_lockscreen_summary">Kilit ekranında uyku moduna geçmek için iki kez dokunun</string>
+  <string name="double_tap_sleep_lockscreen_title">Double tap to sleep gesture</string>
+  <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere to sleep on lockscreen</string>
   <!-- App Ops -->
-  <string name="app_ops_category">Uygulama çalışma ayarları</string>
+  <string name="app_ops_category">App Ops</string>
   <!-- DUI -->
-  <string name="navbar_interface_title">Arayüz</string>
-  <string name="navbar_size">Gezinti çubuğu boyutu</string>
-  <string name="navbar_mode">Gezinti modu</string>
-  <string name="navbar_mode_summary">Cihazda hangi navigasyon modunu kullanacağınızı seçin</string>
-  <string name="navbar_visibility">Navigasyon çubuğuna izin ver</string>
-  <string name="navigationbar_settings_title">Navigasyon çubuğu</string>
-  <string name="navigationbar_settings_summary">Gezinti stili ve davranışını özelleştir</string>
-  <string name="navbar_general_title">Gelişmiş</string>
-  <string name="navigation_bar_left_title">Sol el ile kullanım modu</string>
+  <string name="navbar_interface_title">Interface</string>
+  <string name="navbar_size">Bar size</string>
+  <string name="navbar_mode">Navigation mode</string>
+  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
+  <string name="navbar_visibility">Allow navigation bar</string>
+  <string name="navigationbar_settings_title">Navigation bar</string>
+  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
+  <string name="navbar_general_title">Advanced</string>
+  <string name="navigation_bar_left_title">Left-handed mode</string>
   <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
   <string name="smartbar_interface">SmartBar</string>
   <string name="icon_pack_picker_dialog_title">Icon packs</string>
@@ -366,21 +366,21 @@
   <string name="heads_up_time_out_4sec">4 seconds</string>
   <string name="heads_up_time_out_5sec">5 seconds</string>
   <string name="heads_up_time_out_6sec">6 seconds</string>
-  <string name="heads_up_time_out_8sec">8 saniye</string>
+  <string name="heads_up_time_out_8sec">8 seconds</string>
   <string name="heads_up_time_out_10sec">10 seconds</string>
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Snooze timer</string>
   <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
   <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-  <string name="heads_up_snooze_disabled_summary">Erteleyiciyi devredışı</string>
-  <string name="heads_up_snooze_1min">1 dakika</string>
-  <string name="heads_up_snooze_5min">5 dakika</string>
-  <string name="heads_up_snooze_10min">10 dakika</string>
-  <string name="heads_up_snooze_15min">15 dakika</string>
-  <string name="heads_up_snooze_20min">20 dakika</string>
+  <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+  <string name="heads_up_snooze_1min">1 minute</string>
+  <string name="heads_up_snooze_5min">5 minutes</string>
+  <string name="heads_up_snooze_10min">10 minutes</string>
+  <string name="heads_up_snooze_15min">15 minutes</string>
+  <string name="heads_up_snooze_20min">20 minutes</string>
   <!-- Media art -->
-  <string name="media_art_title">Albüm kapağı</string>
-  <string name="media_art_summary">Kilitli ekranda albüm kapağın göster</string>
+  <string name="media_art_title">Media cover art</string>
+  <string name="media_art_summary">Enable media cover art on the lockscreen</string>
   <!-- Double tap to sleep gesture -->
   <string name="double_tap_sleep_gesture_title">Double tap to sleep gesture</string>
   <string name="double_tap_sleep_gesture_summary">Double tap status bar to sleep</string>
