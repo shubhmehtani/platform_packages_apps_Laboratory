@@ -17,133 +17,133 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tabs -->
-  <string name="app_name">Лаборатория</string>
-  <string name="nav_navigation">Панель навигации</string>
-  <string name="nav_lockscreen">Экран блокировки</string>
-  <string name="nav_statusbar">Строка состояния</string>
-  <string name="nav_panels">Панели</string>
-  <string name="nav_misc">Прочие настройки</string>
+  <string name="app_name">Laboratory</string>
+  <string name="nav_navigation">Navigation</string>
+  <string name="nav_lockscreen">Lock Screen</string>
+  <string name="nav_statusbar">Status Bar</string>
+  <string name="nav_panels">Panels</string>
+  <string name="nav_misc">Miscellaneous</string>
   <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Пустой фрагмент</string>
+  <string name="hello_blank_fragment">Hello blank fragment</string>
   <!-- Categories in tab -->
-  <string name="statusbar_category">Строка состояния</string>
-  <string name="navigation_category">Панель навигации</string>
-  <string name="lockscreen_category">Экран блокировки</string>
-  <string name="panels_category">Панели</string>
-  <string name="misc_category">Прочие настройки</string>
-  <string name="button_settings">Настройки кнопок</string>
-  <string name="quick_settings_category">Быстрые настройки</string>
-  <string name="recents_category">Панель недавних запущенных программ</string>
-  <string name="statusbar_general">Главная</string>
-  <string name="network_traffic_title">Сетевой трафик</string>
+  <string name="statusbar_category">Status Bar</string>
+  <string name="navigation_category">Navigation</string>
+  <string name="lockscreen_category">Lockscreen</string>
+  <string name="panels_category">Panels</string>
+  <string name="misc_category">Miscellaneous</string>
+  <string name="button_settings">Button settings</string>
+  <string name="quick_settings_category">Quick Settings</string>
+  <string name="recents_category">Recent Panel</string>
+  <string name="statusbar_general">General</string>
+  <string name="network_traffic_title">Network Traffic</string>
   <string name="ticker_title">Ticker</string>
-  <string name="power_menu_settings">Меню выкл. питания</string>
-  <string name="light_category">Индикация</string>
-  <string name="carrier_label">Имя оператора</string>
-  <string name="notifications_category">Настройки уведомлений</string>
+  <string name="power_menu_settings">Power Menu</string>
+  <string name="light_category">Lights</string>
+  <string name="carrier_label">Carrier Label</string>
+  <string name="notifications_category">Notifications Settings</string>
   <!-- General -->
   <string name="ok">Okay</string>
-  <string name="reset">Сброс</string>
+  <string name="reset">Reset</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Настройки подсветки</string>
-  <string name="button_backlight_enable_title">Отключить подсветку кнопок</string>
-  <string name="button_link_brightness">Управление яркостью экрана</string>
+  <string name="button_backlight_options_category">Backlight options</string>
+  <string name="button_backlight_enable_title">Allow button backlight</string>
+  <string name="button_link_brightness">Link to screen brightness</string>
   <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
-  <string name="button_manual_brightness">Уровень яркости</string>
-  <string name="button_timeout_title">Тайм-аут подсветки кнопок</string>
-  <string name="button_backlight_on_touch_only_title">Подсветка кнопок при касании</string>
-  <string name="button_backlight_on_touch_only_summary">Включать подсветку сенсорных кнопок только при их касании.</string>
+  <string name="button_manual_brightness">Brightness level</string>
+  <string name="button_timeout_title">Backlight timeout</string>
+  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Палитра цветов</string>
-  <string name="press_color_to_apply">Для выбора нажмите на цвет</string>
+  <string name="dialog_color_picker">Color Picker</string>
+  <string name="press_color_to_apply">Press on color below to apply</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Применить</string>
-  <string name="color_default">По умолчанию</string>
+  <string name="set">Set</string>
+  <string name="color_default">Default</string>
   <!-- Network Traffic -->
-  <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
-  <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
+  <string name="network_traffic_state_title">Show net activity in statusbar</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
   <!-- Carrier Label -->
-  <string name="carrier_options">Выбрать место отображения</string>
-  <string name="custom_carrier_label_title">Свой логотип</string>
-  <string name="custom_carrier_label_explain">Введите свой логотип. Оставьте пустым, чтобы использовать имя сети</string>
-  <string name="custom_carrier_label_notset">Имя оператора в данный момент не установлено</string>
-  <string name="show_carrier_title">Имя оператора</string>
-  <string name="show_carrier_disabled">Отключено</string>
-  <string name="show_carrier_keyguard">Экран блокировки</string>
-  <string name="show_carrier_statusbar">Строка состояния</string>
-  <string name="show_carrier_enabled">Оба</string>
+  <string name="carrier_options">Select display locations</string>
+  <string name="custom_carrier_label_title">Custom carrier label</string>
+  <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+  <string name="custom_carrier_label_notset">Custom label currently not set</string>
+  <string name="show_carrier_title">Carrier label</string>
+  <string name="show_carrier_disabled">Disabled</string>
+  <string name="show_carrier_keyguard">Lockscreen</string>
+  <string name="show_carrier_statusbar">Status bar</string>
+  <string name="show_carrier_enabled">Both</string>
   <!-- Quick Pulldown-->
-  <string name="quick_pulldown_title">Быстрый доступ</string>
-  <string name="quick_pulldown_summary">Правый угол строки состояния при опускании вниз открывает панель быстрых настроек</string>
-  <string name="quick_pulldown_summary_always">Всегда вытягивать быстрые настройки</string>
-  <string name="quick_pulldown_off">Выкл</string>
-  <string name="quick_pulldown_left">Левый</string>
-  <string name="quick_pulldown_right">Правый</string>
-  <string name="quick_pulldown_always">Всегда</string>
+  <string name="quick_pulldown_title">Quick pulldown</string>
+  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+  <string name="quick_pulldown_off">Off</string>
+  <string name="quick_pulldown_left">Left</string>
+  <string name="quick_pulldown_right">Right</string>
+  <string name="quick_pulldown_always">Always</string>
   <!-- Quick Settings brightness icon -->
-  <string name="brightness_icon_title">Иконка авто-яркости</string>
-  <string name="brightness_icon_summary">Показать значок включения авто-яркости справа от слайдера</string>
+  <string name="brightness_icon_title">Auto-brightness icon</string>
+  <string name="brightness_icon_summary">Show a auto-brightness icon to the right of the brightness slider to toggle auto-brightness</string>
   <!-- Option to show brightness bar in quick settings -->
-  <string name="show_brightness_title">Слайдер яркости</string>
-  <string name="show_brightness_summary">Показать ползунок регулировки яркости в панели быстрых настроек</string>
+  <string name="show_brightness_title">Brightness slider</string>
+  <string name="show_brightness_summary">Show the brightness slider</string>
   <!-- Hide Lockscreen clock, date, & alarm -->
-  <string name="hide_lockscreen_clock_title">Виджет часов</string>
-  <string name="hide_lockscreen_clock_summary">Изменить видимость виджета часов</string>
-  <string name="hide_lockscreen_date_title">Виджет даты</string>
-  <string name="hide_lockscreen_date_summary">Изменить видимость даты под виджет часов</string>
-  <string name="hide_lockscreen_alarm_title">Текст будильника</string>
-  <string name="hide_lockscreen_alarm_summary">Изменить видимость текста будильника под виджет часов</string>
+  <string name="hide_lockscreen_clock_title">Clock widget</string>
+  <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+  <string name="hide_lockscreen_date_title">Date widget</string>
+  <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+  <string name="hide_lockscreen_alarm_title">Alarm text</string>
+  <string name="hide_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
   <!-- Status bar ticker -->
-  <string name="ticker_mode_title">Бегущая строка в строке состояния</string>
-  <string name="ticker_disabled">Отключено</string>
-  <string name="ticker_enabled">Текст уведомлений</string>
-  <string name="ticker_media_enabled">Бегущая строка для уведомлений и музыки</string>
+  <string name="ticker_mode_title">Statusbar notification ticker</string>
+  <string name="ticker_disabled">Disabled</string>
+  <string name="ticker_enabled">Notification ticker</string>
+  <string name="ticker_media_enabled">Notification and music ticker</string>
   <!-- Statusbar Icons manager -->
   <string name="icon_manager_title">Icon manager</string>
   <!-- Bottom shortcuts -->
-  <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Ярлыки в нижних углах</string>
+  <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Bottom shortcuts</string>
   <string name="systemui_tuner_lockscreen_bottom_shortcuts_summary">Configure the bottom shortcuts in the keyguard</string>
   <!-- Douple tap lockscreen gesture -->
-  <string name="double_tap_sleep_lockscreen_title">Двойное нажатие для перевода в спящий режим</string>
-  <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь экрана блокировки, чтобы перевести устройство в спящий режим</string>
+  <string name="double_tap_sleep_lockscreen_title">Double tap to sleep gesture</string>
+  <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere to sleep on lockscreen</string>
   <!-- App Ops -->
-  <string name="app_ops_category">Операции в приложениях</string>
+  <string name="app_ops_category">App Ops</string>
   <!-- DUI -->
-  <string name="navbar_interface_title">Сеть</string>
-  <string name="navbar_size">Размер панели навигации</string>
-  <string name="navbar_mode">Режим навигации</string>
-  <string name="navbar_mode_summary">Выберите режим навигации, который будет использоваться на устройстве</string>
-  <string name="navbar_visibility">Включить панель навигации</string>
-  <string name="navigationbar_settings_title">Панель навигации</string>
-  <string name="navigationbar_settings_summary">Настроить стиль и поведение панели навигации</string>
-  <string name="navbar_general_title">Дополнительно</string>
-  <string name="navigation_bar_left_title">Режим левши</string>
-  <string name="navigation_bar_left_summary">Помещать панель навигации в левую сторону при ландшафтной ориентации</string>
-  <string name="smartbar_interface">Умная панель</string>
-  <string name="icon_pack_picker_dialog_title">Набор иконок</string>
-  <string name="image_exceeds_max_allowed_size">Разрешение изображения не должно превышать 512x512</string>
-  <string name="invalid_icon_from_uri">Невозможно загрузить картинку</string>
-  <string name="picker_activities">Действия</string>
-  <string name="select_custom_app_title">Выбрать свое приложение</string>
-  <string name="select_custom_activity_title">Выбрать своё действие</string>
-  <string name="profile_applist_title">Приложения</string>
-  <string name="default_string">По умолчанию</string>
-  <string name="default_settings">Настройки по умолчанию</string>
-  <string name="default_settings_summary">Панель навигации AOSP по умолчанию</string>
+  <string name="navbar_interface_title">Interface</string>
+  <string name="navbar_size">Bar size</string>
+  <string name="navbar_mode">Navigation mode</string>
+  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
+  <string name="navbar_visibility">Allow navigation bar</string>
+  <string name="navigationbar_settings_title">Navigation bar</string>
+  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
+  <string name="navbar_general_title">Advanced</string>
+  <string name="navigation_bar_left_title">Left-handed mode</string>
+  <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
+  <string name="smartbar_interface">SmartBar</string>
+  <string name="icon_pack_picker_dialog_title">Icon packs</string>
+  <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
+  <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
+  <string name="picker_activities">Activities</string>
+  <string name="select_custom_app_title">Select custom app</string>
+  <string name="select_custom_activity_title">Select custom activity</string>
+  <string name="profile_applist_title">Applications</string>
+  <string name="default_string">Stock</string>
+  <string name="default_settings">Stock settings</string>
+  <string name="default_settings_summary">Stock AOSP navigation bar</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <string name="choose_action_title">Выбрать действие</string>
-  <string name="action_entry_default_action">Настройки по умолчанию</string>
-  <string name="action_entry_select_app">Выбрать приложение</string>
-  <string name="action_entry_custom_action">Выбрать своё действие</string>
+  <string name="choose_action_title">Choose action</string>
+  <string name="action_entry_default_action">Default settings</string>
+  <string name="action_entry_select_app">Select application</string>
+  <string name="action_entry_custom_action">Select custom action</string>
   <!-- Fling -->
-  <string name="fling_settings">Управление жестами</string>
-  <string name="fling_settings_summary">Очень уникальная и настраиваемая, основанная на управлении жестами, панель навигации</string>
-  <string name="fling_interface">Жесты</string>
-  <string name="fling_enable_title">Включить жесты</string>
-  <string name="fling_back_home_policy">\"Назад\" и \"Домой\" должны быть установлены всегда. Чтобы изменить назначение \"Назад\" или \"Домой\", сначала установите нужное назначение.\n\nТакже настройка двойного нажатия немного замедлит одиночное нажатие.</string>
+  <string name="fling_settings">Fling settings</string>
+  <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
+  <string name="fling_interface">Fling</string>
+  <string name="fling_enable_title">Enable Fling</string>
+  <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first.\n\nAlso, setting a double tap action will delay single tap a bit.</string>
   <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
   <string name="fling_def_summary">No action set</string>
   <string name="fling_swipe_actions">Swipe gestures</string>
@@ -291,8 +291,8 @@
   <string name="hardware_keys_category">Hardware buttons</string>
   <string name="hardware_keys_disable_title">Disable hardware buttons</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Перезагрузка</string>
-  <string name="powermenu_advanced_reboot_title">Расширенная перезагрузка</string>
+  <string name="powermenu_reboot_title">Reboot</string>
+  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for options to reboot to recovery, bootloader, restart systemui or trigger a hot reboot</string>
   <string name="powermenu_screenshot_title">Screenshot</string>
   <string name="powermenu_airplane_title">Airplane mode</string>
