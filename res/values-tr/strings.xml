@@ -19,38 +19,38 @@
   <!-- Tabs -->
   <string name="app_name">Laboratuvar</string>
   <string name="nav_navigation">Navigasyon</string>
-  <string name="nav_lockscreen">Kilit Ekranı</string>
+  <string name="nav_lockscreen">Ekrani Kilitle</string>
   <string name="nav_statusbar">Durum Çubuğu</string>
   <string name="nav_panels">Paneller</string>
-  <string name="nav_misc">Miscellaneous</string>
+  <string name="nav_misc">Muhtelif</string>
   <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="hello_blank_fragment">Merhaba boş parça</string>
   <!-- Categories in tab -->
-  <string name="statusbar_category">Status Bar</string>
-  <string name="navigation_category">Navigation</string>
-  <string name="lockscreen_category">Lockscreen</string>
-  <string name="panels_category">Panels</string>
-  <string name="misc_category">Miscellaneous</string>
-  <string name="button_settings">Button settings</string>
-  <string name="quick_settings_category">Quick Settings</string>
-  <string name="recents_category">Recent Panel</string>
-  <string name="statusbar_general">General</string>
-  <string name="network_traffic_title">Network Traffic</string>
-  <string name="ticker_title">Ticker</string>
+  <string name="statusbar_category">Durum Çubuğu</string>
+  <string name="navigation_category">Navigasyon</string>
+  <string name="lockscreen_category">Kilit Ekranı</string>
+  <string name="panels_category">Paneller</string>
+  <string name="misc_category">Muhtelif</string>
+  <string name="button_settings">Buton ayarları</string>
+  <string name="quick_settings_category">Hızlı Ayarlar</string>
+  <string name="recents_category">Son kullanılanlar paneli</string>
+  <string name="statusbar_general">Genel</string>
+  <string name="network_traffic_title">Ağ Trafiği</string>
+  <string name="ticker_title">Şerit</string>
   <string name="power_menu_settings">Güç Menüsü</string>
   <string name="light_category">Işıklar</string>
   <string name="carrier_label">Operatör etiketi</string>
-  <string name="notifications_category">Notifications Settings</string>
+  <string name="notifications_category">Bildirim Ayarları</string>
   <!-- General -->
-  <string name="ok">Okay</string>
-  <string name="reset">Reset</string>
+  <string name="ok">Tamam</string>
+  <string name="reset">Sıfırla</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Backlight options</string>
-  <string name="button_backlight_enable_title">Allow button backlight</string>
-  <string name="button_link_brightness">Link to screen brightness</string>
+  <string name="button_backlight_options_category">Arka aydınlatma seçenekleri</string>
+  <string name="button_backlight_enable_title">Düğme arka ışığını aç</string>
+  <string name="button_link_brightness">Ekran parlaklığını için bağlantı</string>
   <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
-  <string name="button_manual_brightness">Brightness level</string>
-  <string name="button_timeout_title">Backlight timeout</string>
+  <string name="button_manual_brightness">Parlaklık düzeyi</string>
+  <string name="button_timeout_title">Arka Işık Zaman Aşımı</string>
   <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
   <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
   <!-- Color Picker -->
