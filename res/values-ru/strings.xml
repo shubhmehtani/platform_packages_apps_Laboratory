@@ -18,18 +18,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tabs -->
   <string name="app_name">Лаборатория</string>
-  <string name="nav_navigation">Navigation</string>
+  <string name="nav_navigation">Панель навигации</string>
   <string name="nav_lockscreen">Экран блокировки</string>
   <string name="nav_statusbar">Строка состояния</string>
-  <string name="nav_panels">Panels</string>
+  <string name="nav_panels">Панели</string>
   <string name="nav_misc">Прочие настройки</string>
   <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="hello_blank_fragment">Пустой фрагмент</string>
   <!-- Categories in tab -->
   <string name="statusbar_category">Строка состояния</string>
-  <string name="navigation_category">Navigation</string>
+  <string name="navigation_category">Панель навигации</string>
   <string name="lockscreen_category">Экран блокировки</string>
-  <string name="panels_category">Panels</string>
+  <string name="panels_category">Панели</string>
   <string name="misc_category">Прочие настройки</string>
   <string name="button_settings">Настройки кнопок</string>
   <string name="quick_settings_category">Быстрые настройки</string>
@@ -61,23 +61,23 @@
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Применить</string>
-  <string name="color_default">Default</string>
+  <string name="color_default">По умолчанию</string>
   <!-- Network Traffic -->
-  <string name="network_traffic_state_title">Show net activity in statusbar</string>
-  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
+  <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сетевого трафика (КБ/с)</string>
   <!-- Carrier Label -->
-  <string name="carrier_options">Select display locations</string>
-  <string name="custom_carrier_label_title">Custom carrier label</string>
-  <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
-  <string name="custom_carrier_label_notset">Custom label currently not set</string>
-  <string name="show_carrier_title">Carrier label</string>
-  <string name="show_carrier_disabled">Disabled</string>
-  <string name="show_carrier_keyguard">Lockscreen</string>
-  <string name="show_carrier_statusbar">Status bar</string>
-  <string name="show_carrier_enabled">Both</string>
+  <string name="carrier_options">Выбрать место отображения</string>
+  <string name="custom_carrier_label_title">Свой логотип</string>
+  <string name="custom_carrier_label_explain">Введите свой логотип. Оставьте пустым, чтобы использовать имя сети</string>
+  <string name="custom_carrier_label_notset">Имя оператора в данный момент не установлено</string>
+  <string name="show_carrier_title">Имя оператора</string>
+  <string name="show_carrier_disabled">Отключено</string>
+  <string name="show_carrier_keyguard">Экран блокировки</string>
+  <string name="show_carrier_statusbar">Строка состояния</string>
+  <string name="show_carrier_enabled">Оба</string>
   <!-- Quick Pulldown-->
-  <string name="quick_pulldown_title">Quick pulldown</string>
-  <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+  <string name="quick_pulldown_title">Быстрый доступ</string>
+  <string name="quick_pulldown_summary">Правый угол строки состояния при опускании вниз открывает панель быстрых настроек</string>
   <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
   <string name="quick_pulldown_off">Off</string>
   <string name="quick_pulldown_left">Left</string>
