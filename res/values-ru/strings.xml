@@ -40,27 +40,27 @@
   <string name="power_menu_settings">Меню выкл. питания</string>
   <string name="light_category">Индикация</string>
   <string name="carrier_label">Имя оператора</string>
-  <string name="notifications_category">Notifications Settings</string>
+  <string name="notifications_category">Настройки уведомлений</string>
   <!-- General -->
   <string name="ok">Okay</string>
-  <string name="reset">Reset</string>
+  <string name="reset">Сброс</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Backlight options</string>
-  <string name="button_backlight_enable_title">Allow button backlight</string>
-  <string name="button_link_brightness">Link to screen brightness</string>
+  <string name="button_backlight_options_category">Настройки подсветки</string>
+  <string name="button_backlight_enable_title">Отключить подсветку кнопок</string>
+  <string name="button_link_brightness">Управление яркостью экрана</string>
   <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
-  <string name="button_manual_brightness">Brightness level</string>
-  <string name="button_timeout_title">Backlight timeout</string>
-  <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-  <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+  <string name="button_manual_brightness">Уровень яркости</string>
+  <string name="button_timeout_title">Тайм-аут подсветки кнопок</string>
+  <string name="button_backlight_on_touch_only_title">Подсветка кнопок при касании</string>
+  <string name="button_backlight_on_touch_only_summary">Включать подсветку сенсорных кнопок только при их касании.</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="dialog_color_picker">Палитра цветов</string>
+  <string name="press_color_to_apply">Для выбора нажмите на цвет</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
+  <string name="set">Применить</string>
   <string name="color_default">Default</string>
   <!-- Network Traffic -->
   <string name="network_traffic_state_title">Show net activity in statusbar</string>
@@ -291,8 +291,8 @@
   <string name="hardware_keys_category">Hardware buttons</string>
   <string name="hardware_keys_disable_title">Disable hardware buttons</string>
   <!-- Power Menu -->
-  <string name="powermenu_reboot_title">Reboot</string>
-  <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+  <string name="powermenu_reboot_title">Перезагрузка</string>
+  <string name="powermenu_advanced_reboot_title">Расширенная перезагрузка</string>
   <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for options to reboot to recovery, bootloader, restart systemui or trigger a hot reboot</string>
   <string name="powermenu_screenshot_title">Screenshot</string>
   <string name="powermenu_airplane_title">Airplane mode</string>
