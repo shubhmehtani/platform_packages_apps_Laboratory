@@ -17,8 +17,8 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tabs -->
-  <string name="app_name">Laboratory</string>
-  <string name="nav_navigation">Navigation</string>
+  <string name="app_name">Laboratorio</string>
+  <string name="nav_navigation">Navigazione</string>
   <string name="nav_lockscreen">Lock Screen</string>
   <string name="nav_statusbar">Status Bar</string>
   <string name="nav_panels">Panels</string>
