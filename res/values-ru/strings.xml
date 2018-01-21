@@ -104,46 +104,46 @@
   <!-- Statusbar Icons manager -->
   <string name="icon_manager_title">Icon manager</string>
   <!-- Bottom shortcuts -->
-  <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Bottom shortcuts</string>
+  <string name="systemui_tuner_lockscreen_bottom_shortcuts_title">Ярлыки в нижних углах</string>
   <string name="systemui_tuner_lockscreen_bottom_shortcuts_summary">Configure the bottom shortcuts in the keyguard</string>
   <!-- Douple tap lockscreen gesture -->
-  <string name="double_tap_sleep_lockscreen_title">Double tap to sleep gesture</string>
-  <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere to sleep on lockscreen</string>
+  <string name="double_tap_sleep_lockscreen_title">Двойное нажатие для перевода в спящий режим</string>
+  <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь экрана блокировки, чтобы перевести устройство в спящий режим</string>
   <!-- App Ops -->
-  <string name="app_ops_category">App Ops</string>
+  <string name="app_ops_category">Операции в приложениях</string>
   <!-- DUI -->
-  <string name="navbar_interface_title">Interface</string>
-  <string name="navbar_size">Bar size</string>
-  <string name="navbar_mode">Navigation mode</string>
-  <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
-  <string name="navbar_visibility">Allow navigation bar</string>
-  <string name="navigationbar_settings_title">Navigation bar</string>
-  <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-  <string name="navbar_general_title">Advanced</string>
-  <string name="navigation_bar_left_title">Left-handed mode</string>
-  <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-  <string name="smartbar_interface">SmartBar</string>
-  <string name="icon_pack_picker_dialog_title">Icon packs</string>
-  <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
-  <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-  <string name="picker_activities">Activities</string>
-  <string name="select_custom_app_title">Select custom app</string>
-  <string name="select_custom_activity_title">Select custom activity</string>
-  <string name="profile_applist_title">Applications</string>
-  <string name="default_string">Stock</string>
-  <string name="default_settings">Stock settings</string>
-  <string name="default_settings_summary">Stock AOSP navigation bar</string>
+  <string name="navbar_interface_title">Сеть</string>
+  <string name="navbar_size">Размер панели навигации</string>
+  <string name="navbar_mode">Режим навигации</string>
+  <string name="navbar_mode_summary">Выберите режим навигации, который будет использоваться на устройстве</string>
+  <string name="navbar_visibility">Включить панель навигации</string>
+  <string name="navigationbar_settings_title">Панель навигации</string>
+  <string name="navigationbar_settings_summary">Настроить стиль и поведение панели навигации</string>
+  <string name="navbar_general_title">Дополнительно</string>
+  <string name="navigation_bar_left_title">Режим левши</string>
+  <string name="navigation_bar_left_summary">Помещать панель навигации в левую сторону при ландшафтной ориентации</string>
+  <string name="smartbar_interface">Умная панель</string>
+  <string name="icon_pack_picker_dialog_title">Набор иконок</string>
+  <string name="image_exceeds_max_allowed_size">Разрешение изображения не должно превышать 512x512</string>
+  <string name="invalid_icon_from_uri">Невозможно загрузить картинку</string>
+  <string name="picker_activities">Действия</string>
+  <string name="select_custom_app_title">Выбрать свое приложение</string>
+  <string name="select_custom_activity_title">Выбрать своё действие</string>
+  <string name="profile_applist_title">Приложения</string>
+  <string name="default_string">По умолчанию</string>
+  <string name="default_settings">Настройки по умолчанию</string>
+  <string name="default_settings_summary">Панель навигации AOSP по умолчанию</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <string name="choose_action_title">Choose action</string>
-  <string name="action_entry_default_action">Default settings</string>
-  <string name="action_entry_select_app">Select application</string>
-  <string name="action_entry_custom_action">Select custom action</string>
+  <string name="choose_action_title">Выбрать действие</string>
+  <string name="action_entry_default_action">Настройки по умолчанию</string>
+  <string name="action_entry_select_app">Выбрать приложение</string>
+  <string name="action_entry_custom_action">Выбрать своё действие</string>
   <!-- Fling -->
-  <string name="fling_settings">Fling settings</string>
-  <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
-  <string name="fling_interface">Fling</string>
-  <string name="fling_enable_title">Enable Fling</string>
-  <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first.\n\nAlso, setting a double tap action will delay single tap a bit.</string>
+  <string name="fling_settings">Управление жестами</string>
+  <string name="fling_settings_summary">Очень уникальная и настраиваемая, основанная на управлении жестами, панель навигации</string>
+  <string name="fling_interface">Жесты</string>
+  <string name="fling_enable_title">Включить жесты</string>
+  <string name="fling_back_home_policy">\"Назад\" и \"Домой\" должны быть установлены всегда. Чтобы изменить назначение \"Назад\" или \"Домой\", сначала установите нужное назначение.\n\nТакже настройка двойного нажатия немного замедлит одиночное нажатие.</string>
   <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
   <string name="fling_def_summary">No action set</string>
   <string name="fling_swipe_actions">Swipe gestures</string>
