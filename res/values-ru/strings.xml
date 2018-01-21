@@ -17,29 +17,29 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tabs -->
-  <string name="app_name">Laboratory</string>
+  <string name="app_name">Лаборатория</string>
   <string name="nav_navigation">Navigation</string>
-  <string name="nav_lockscreen">Lock Screen</string>
-  <string name="nav_statusbar">Status Bar</string>
+  <string name="nav_lockscreen">Экран блокировки</string>
+  <string name="nav_statusbar">Строка состояния</string>
   <string name="nav_panels">Panels</string>
-  <string name="nav_misc">Miscellaneous</string>
+  <string name="nav_misc">Прочие настройки</string>
   <!-- TODO: Remove or change this placeholder text -->
   <string name="hello_blank_fragment">Hello blank fragment</string>
   <!-- Categories in tab -->
-  <string name="statusbar_category">Status Bar</string>
+  <string name="statusbar_category">Строка состояния</string>
   <string name="navigation_category">Navigation</string>
-  <string name="lockscreen_category">Lockscreen</string>
+  <string name="lockscreen_category">Экран блокировки</string>
   <string name="panels_category">Panels</string>
-  <string name="misc_category">Miscellaneous</string>
-  <string name="button_settings">Button settings</string>
-  <string name="quick_settings_category">Quick Settings</string>
-  <string name="recents_category">Recent Panel</string>
-  <string name="statusbar_general">General</string>
-  <string name="network_traffic_title">Network Traffic</string>
+  <string name="misc_category">Прочие настройки</string>
+  <string name="button_settings">Настройки кнопок</string>
+  <string name="quick_settings_category">Быстрые настройки</string>
+  <string name="recents_category">Панель недавних запущенных программ</string>
+  <string name="statusbar_general">Главная</string>
+  <string name="network_traffic_title">Сетевой трафик</string>
   <string name="ticker_title">Ticker</string>
-  <string name="power_menu_settings">Power Menu</string>
-  <string name="light_category">Lights</string>
-  <string name="carrier_label">Carrier Label</string>
+  <string name="power_menu_settings">Меню выкл. питания</string>
+  <string name="light_category">Индикация</string>
+  <string name="carrier_label">Имя оператора</string>
   <string name="notifications_category">Notifications Settings</string>
   <!-- General -->
   <string name="ok">Okay</string>
